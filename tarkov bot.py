@@ -13,13 +13,13 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send("Pong!")
 
-@bot.command(pass_context=True)
-async def tarkov(ctx):
-    await ctx.send(random.choice(["Shoreline",
-                                  "Customs",
-                                  "Reserve",
-                                  "Interchange",
+@bot.command(aliases=['tarkov'])
+async def _8ball(ctx):
+    await ctx.send(random.choice(["Shoreline :park:",
+                                  "Customs :motorway:",
+                                  "Reserve :coffin:",
+                                  "Interchange :department_store:",
                                   "Woods :evergreen_tree:",
-                                  "Smelliest person picks",]))
+                                  "Smelliest person picks :sick:",]))
 
-bot.run("Njc5MTcwNDczODQ1NTg3OTc4.Xk7mpQ.yKDmWSwSXXjXfH2yolQhv2K7eX0")
+bot.run("Njc5MTcwNDczODQ1NTg3OTc4.Xk7oQw.WfTc6ToSInvjKcSK4pEKC6NHa8g")
