@@ -22,4 +22,4 @@ async def tarkov(ctx):
                                   "Woods :evergreen_tree:",
                                   "Smelliest person picks",]))
 
-bot.run("Njc5MTcwNDczODQ1NTg3OTc4.Xk7jcA.bTsYuYf8dMAy0KTPohLXJ2mdAUM")
+bot.run("Njc5MTcwNDczODQ1NTg3OTc4.Xk7mpQ.yKDmWSwSXXjXfH2yolQhv2K7eX0")
