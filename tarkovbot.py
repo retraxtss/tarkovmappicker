@@ -22,4 +22,4 @@ async def _8ball(ctx):
                                   "Woods :evergreen_tree:",
                                   "Smelliest person picks :sick:",]))
 
-bot.run("Njc5MTcwNDczODQ1NTg3OTc4.Xk7oQw.WfTc6ToSInvjKcSK4pEKC6NHa8g")
+bot.run("Njc5MTcwNDczODQ1NTg3OTc4.Xk775g.2X0JIIFeKlJkP-d-L3rwr7v-pI0")
