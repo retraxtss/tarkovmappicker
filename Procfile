@@ -1,1 +1,1 @@
-worker: python tarkov bot.py
+worker: python tarkovbot.py
