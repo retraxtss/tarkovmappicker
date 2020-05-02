@@ -1,7 +1,6 @@
 import asyncio
 import discord
 import random
-import youtube_dl
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix="1")
@@ -40,16 +39,7 @@ async def role(ctx):
                                   "ADC",
                                   "Support",
                                   "Smelliest person picks :sick:", ]))
-
-
-@bot.command(pass_context=True)
-async def play(ctx, url):
-    guild = ctx.message.guild
-    voice_client = guild.voice_client
-    player = await voice_client.create_ytdl_player(url)
-    player[guild.id] = player
-    player.start()
-
+    
 
 @bot.command(pass_context=True)
 async def game(ctx):
@@ -63,6 +53,7 @@ async def game(ctx):
                                   "Destiny 2",
                                   "Risk of Rain 2",
                                   "Smelliest person picks :sick:", ]))
+    
 
 @bot.command(pass_context=True)
 async def nick(ctx)
