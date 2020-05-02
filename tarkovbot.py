@@ -65,4 +65,4 @@ async def nick(ctx)
                                   "MW2",]))
 
 
-bot.run("Njc5MTcwNDczODQ1NTg3OTc4.Xk782Q.QaKPdVOLLugADMM1ussM734Va6k")
+
